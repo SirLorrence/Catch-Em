@@ -23,18 +23,23 @@ First Playable/Early Alpha | Beta
 :-------------------------:|:-------------------------:
 ![](https://github.com/SirLorrence/ReadMeImages/blob/main/CatchEm/CatchEm-EarlyAlpha.gif?raw=true) | ![](https://github.com/SirLorrence/ReadMeImages/blob/main/CatchEm/CatchEm-Beta.gif?raw=true)
 
-### Level Shader
-<!-- Shader Graph -->
-<p align="center">
-  <img src="https://github.com/SirLorrence/ReadMeImages/blob/main/CatchEm/CurvedShader.png?raw=true">
-</p>
 
+To get the core gameplay working, I first started with the spawn system. I created a dynamic line that will be as long as the width of the river (plane) and coded a placement system that would allow me to place as many points with the proper amount of spacing as I need. 
 
 ### Spawn System
 <!-- Spawner -->
 <p align="center">
   <img src="https://github.com/SirLorrence/ReadMeImages/blob/main/CatchEm/CatchEm-SpawnSystem.gif?raw=true">
 </p>
+
+Then I wanted to try something new with shaders, never learn much about them - so I gave them a try. This took the longest out of everything in this project. My goal was to create the illusion of the river and the first curving towards the player, which I did succeed in. But many of the problems I've faced were with getting the curve calculates right and understanding what well am I doing in the shader graph. Working with good guides I've managed to get what I wanted.
+
+### Level Shader
+<!-- Shader Graph -->
+<p align="center">
+  <img src="https://github.com/SirLorrence/ReadMeImages/blob/main/CatchEm/CurvedShader.png?raw=true">
+</p>
+
 
 ### IK Animations
 <!-- IK Animation Bug -->
