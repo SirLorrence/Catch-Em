@@ -40,6 +40,7 @@ Then I wanted to try something new with shaders, never learn much about them - s
   <img src="https://github.com/SirLorrence/ReadMeImages/blob/main/CatchEm/CurvedShader.png?raw=true">
 </p>
 
+After that, I continue to finish up the gameplay logic and slowly started to add in the assets and animations. Instead of using Unity's IK animation tool, I decided to work with their IK API so I can do it through code. With some semantic errors and finding some fun bugs while doing so, I've managed to get it working. Added some polish (the best I can, I am not an artist or animator), and boom created this little mini-game. 
 
 ### IK Animations
 <!-- IK Animation Bug -->
